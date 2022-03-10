@@ -1,0 +1,8 @@
+<div *ngFor="let user of users" style="border: 2px solid red; margin: 30px">
+  <app-user-item
+    (emiTdata)="goDetails($event)"
+    [userItem]="user"
+  ></app-user-item>
+</div>
+
+<!-- (emitDeleteUserData)="deleteUser($event)" -->

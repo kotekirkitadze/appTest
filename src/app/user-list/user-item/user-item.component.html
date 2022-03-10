@@ -1,0 +1,10 @@
+<h5>Name: {{ userItem.name }}</h5>
+<span>Country: {{ userItem.country }}</span>
+<button (click)="emitUserData(userItem.id)" style="margin-left: 20px">
+  Detail
+</button>
+<!--
+<button (click)="emitDeleteUser(userItem.id)" style="margin-left: 10px">
+  Delete
+</button> -->
+<!-- (click)="toDetails(userItem.id)" -->
